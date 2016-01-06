@@ -2,34 +2,33 @@
 
 function try_install()
 {
-	if $1 == "homebrew"; then
-		echo 'now install homebrew'
-		ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-	else
-		brew install $1
-	fi
+  if $1 == "homebrew"; then
+    echo 'now install homebrew'
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  else
+    brew install $1
+  fi
 }
 
-set -e 
+set -e
 
 # TODO 没有加入Debian / Ubuntu / Fedora / Arch / OPenSUSE 的检测 本人没有环境
 if [ `uname` == "Darwin" ]; then
-	echo 'now starting auto config in mac'
-	
-	which brew || try_install homebrew
-	which ctag || try_install ctags
-	# TODO 剩下的依赖我也不大清楚
+  echo 'now starting auto config in mac'
+
+  which brew || try_install homebrew
+  which ctag || try_install ctags
+  # TODO 剩下的依赖我也不大清楚
 else
-	if [ "x$USER" != "xroot" ]; then
-		exec sudo ./$0 "$@"
-	fi
-	apt-get install ctags grep-ack
-	apt-get install python-software-properties
-	apt-add-repository ppa:mizuno-as/silversearcher-ag
-	apt-get update
-	apt-get install silversearcher-ag
+  if [ "x$USER" != "xroot" ]; then
+    exec sudo ./$0 "$@"
+  fi
+  apt-get install ctags grep-ack
+  apt-get install python-software-properties
+  apt-add-repository ppa:mizuno-as/silversearcher-ag
+  apt-get update
+  apt-get install silversearcher-ag
 fi
-mate
 cd ~
 git clone git://github.com/yinsigan/vimconf.git
 ln -s ~/vimconf/.vimrc ~/.vimrc
