@@ -24,7 +24,7 @@ else
 		exec sudo ./$0 "$@"
 	fi
 	apt-get install ctags grep-ack
-	apt-get install python-software-properties (if required)
+	apt-get install python-software-properties
 	apt-add-repository ppa:mizuno-as/silversearcher-ag
 	apt-get update
 	apt-get install silversearcher-ag
