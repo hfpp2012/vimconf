@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 sudo apt-get install ctags grep-ack
-sudo apt-get install python-software-properties (if required)
+sudo apt-get install python-software-properties
 sudo apt-add-repository ppa:mizuno-as/silversearcher-ag
 sudo apt-get update
 sudo apt-get install silversearcher-ag
