@@ -69,6 +69,7 @@ NeoBundle 'mxw/vim-jsx'
 " Bundle 'HTML-AutoCloseTag'
 " Bundle 'flazz/vim-colorschemes'
 NeoBundle 'jdkanani/vim-material-theme'
+NeoBundle 'dhruvasagar/vim-table-mode'
 
 " syntax higlight
 NeoBundle 'nono/jquery.vim'
