@@ -87,4 +87,5 @@ NeoBundle 'leshill/vim-json'
 NeoBundle 'digitaltoad/vim-jade'
 NeoBundle 'wavded/vim-stylus'
 NeoBundle 'mustache/vim-mustache-handlebars'
+NeoBundle 'wannesm/wmgraphviz.vim'
 NeoBundleCheck

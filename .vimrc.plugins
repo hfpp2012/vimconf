@@ -20,7 +20,7 @@
       \ 'dir':  '\.git$\|\.hg$\|\.svn$',
       \ 'file': '\.exe$\|\.so$\|\.dll$' }
   let g:ctrlp_working_path_mode = 0
-  let g:ctrlp_max_height = 6
+  let g:ctrlp_max_height = 10
 
 " Buffer explorer
   nmap <leader>n :BufExplorer<CR>
@@ -128,3 +128,7 @@ let g:gitgutter_enabled = 0
 " MiniBufExplorer
 " map <leader>mca :MBECloseAll<cr>
 " map <leader>mt :MBEToggle<cr>
+
+" wmgraphviz.vim
+map <leader>ll :GraphvizCompile<cr>
+let g:WMGraphviz_output="jpg"
