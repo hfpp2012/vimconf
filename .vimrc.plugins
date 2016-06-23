@@ -81,6 +81,7 @@
   au FileType c setlocal tabstop=4 shiftwidth=4 softtabstop=4
   au FileType go setlocal tabstop=4 shiftwidth=4 softtabstop=4
   au FileType python setlocal tabstop=4 shiftwidth=4 softtabstop=4
+  au FileType dot setlocal tabstop=4 shiftwidth=4 softtabstop=4
 
 
 " syntastic
@@ -131,4 +132,4 @@ let g:gitgutter_enabled = 0
 
 " wmgraphviz.vim
 map <leader>ll :GraphvizCompile<cr>
-let g:WMGraphviz_output="jpg"
+let g:WMGraphviz_output="png"
