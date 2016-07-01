@@ -97,7 +97,7 @@ map <leader>ct :SyntasticToggleMode<CR>
   " let g:neocomplcache_enable_underbar_completion = 1
 
 " Taglist
-  " nnoremap <silent> <F8> :TlistToggle<CR> nmap <Leader>ac <Plug>ToggleAutoCloseMappings
+nnoremap <C-t> :TlistToggle<CR> nmap <Leader>ac <Plug>ToggleAutoCloseMappings
 
 
 " nerdcommenter
