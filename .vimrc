@@ -146,7 +146,7 @@ if has("gui_running")
   " let g:solarized_visibility="high"
   " colorscheme solarized
 else
-  colorscheme github
+  colorscheme molokai
   set nocursorline
 endif
 
