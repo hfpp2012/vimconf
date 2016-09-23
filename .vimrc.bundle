@@ -4,6 +4,8 @@ NeoBundle 'scrooloose/nerdtree.git'
 " vim-snipmate dependencies
 NeoBundle 'MarcWeber/vim-addon-mw-utils'
 NeoBundle 'tomtom/tlib_vim'
+" vim-react-snippets:
+NeoBundle "bentayloruk/vim-react-es6-snippets"
 NeoBundle 'yinsigan/vim-snipmate'
 " NeoBundle 'honza/vim-snippets'
 NeoBundle 'yinsigan/snipmate-snippets'
