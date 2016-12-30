@@ -151,7 +151,7 @@ else
 endif
 
 if has("gui_macvim")
-  set guifont=Monaco:h15
+  set guifont=Monaco:h12
 elseif has("gui_gtk")
   set guifont=文泉驿等宽微米黑\ 12
   " set guifont=Menlo\ 12

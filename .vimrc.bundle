@@ -94,4 +94,5 @@ NeoBundle 'wavded/vim-stylus'
 NeoBundle 'mustache/vim-mustache-handlebars'
 NeoBundle 'wannesm/wmgraphviz.vim'
 NeoBundle 'isRuslan/vim-es6'
+NeoBundle 'Glench/Vim-Jinja2-Syntax'
 NeoBundleCheck
