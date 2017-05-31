@@ -75,6 +75,7 @@ NeoBundle 'taglist.vim'
 " Bundle 'flazz/vim-colorschemes'
 NeoBundle 'jdkanani/vim-material-theme'
 NeoBundle 'dhruvasagar/vim-table-mode'
+NeoBundle 'jparise/vim-graphql'
 
 " syntax higlight
 NeoBundle 'nono/jquery.vim'
@@ -95,4 +96,5 @@ NeoBundle 'mustache/vim-mustache-handlebars'
 NeoBundle 'wannesm/wmgraphviz.vim'
 NeoBundle 'isRuslan/vim-es6'
 NeoBundle 'Glench/Vim-Jinja2-Syntax'
+NeoBundle 'rakr/vim-one'
 NeoBundleCheck
