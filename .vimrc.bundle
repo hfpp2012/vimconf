@@ -97,4 +97,5 @@ NeoBundle 'wannesm/wmgraphviz.vim'
 NeoBundle 'isRuslan/vim-es6'
 NeoBundle 'Glench/Vim-Jinja2-Syntax'
 NeoBundle 'rakr/vim-one'
+NeoBundle 'posva/vim-vue'
 NeoBundleCheck
