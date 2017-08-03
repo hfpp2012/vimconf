@@ -77,7 +77,7 @@
   au BufRead,BufNewFile *.rb        set filetype=ruby syntax=ruby
   au BufRead,BufNewFile *.erb       set filetype=eruby
 
-  au FileType php setlocal tabstop=2 shiftwidth=2 softtabstop=2 textwidth=120
+  au FileType php setlocal tabstop=4 shiftwidth=4 softtabstop=4 textwidth=120
   au FileType c setlocal tabstop=4 shiftwidth=4 softtabstop=4
   au FileType go setlocal tabstop=4 shiftwidth=4 softtabstop=4
   au FileType python setlocal tabstop=4 shiftwidth=4 softtabstop=4
