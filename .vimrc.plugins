@@ -127,8 +127,9 @@ map <leader>gi :GitGutterToggle<cr>
 let g:gitgutter_enabled = 0
 
 " MiniBufExplorer
-" map <leader>mca :MBECloseAll<cr>
-" map <leader>mt :MBEToggle<cr>
+map <leader>mca :MBECloseAll<cr>
+map <leader>mt :MBEToggle<cr>
+map <leader>f :MBEFocus<cr>
 
 " wmgraphviz.vim
 map <leader>ll :GraphvizCompile<cr>

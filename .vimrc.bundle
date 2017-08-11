@@ -1,6 +1,7 @@
 NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'mattn/emmet-vim'
 NeoBundle 'scrooloose/nerdtree.git'
+NeoBundle 'Xuyuanp/nerdtree-git-plugin'
 " vim-snipmate dependencies
 NeoBundle 'MarcWeber/vim-addon-mw-utils'
 NeoBundle 'tomtom/tlib_vim'
@@ -36,7 +37,7 @@ NeoBundle 'chriskempson/base16-vim'
 NeoBundle 'matthewtodd/vim-twilight'
 NeoBundle 'terryma/vim-multiple-cursors'
 NeoBundle 'yinsigan/Smyck-Color-Scheme'
-" NeoBundle 'fholgado/minibufexpl.vim'
+NeoBundle 'fholgado/minibufexpl.vim'
 NeoBundle 'airblade/vim-gitgutter'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'flazz/vim-colorschemes'
@@ -105,4 +106,6 @@ NeoBundle 'tpope/vim-projectionist'
 NeoBundle 'noahfrederick/vim-composer'
 NeoBundle 'noahfrederick/vim-laravel'
 NeoBundle 'jwalton512/vim-blade'
+NeoBundle 'chemzqm/wxapp.vim'
+
 NeoBundleCheck
