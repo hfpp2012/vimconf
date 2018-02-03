@@ -46,7 +46,6 @@ NeoBundle 'corntrace/bufexplorer'
 NeoBundle 'burnettk/vim-angular'
 NeoBundle 'thoughtbot/vim-rspec'
 NeoBundle 'drmingdrmer/xptemplate'
-NeoBundle 'mxw/vim-jsx'
 NeoBundle 'rhysd/vim-gfm-syntax'
 " NeoBundle 'kien/rainbow_parentheses.vim'
 " NeoBundle 'maxbrunsfeld/vim-yankstack'
@@ -107,5 +106,10 @@ NeoBundle 'noahfrederick/vim-composer'
 NeoBundle 'noahfrederick/vim-laravel'
 NeoBundle 'jwalton512/vim-blade'
 NeoBundle 'chemzqm/wxapp.vim'
+NeoBundle 'mxw/vim-jsx'
+NeoBundle 'MaxMEllon/vim-jsx-pretty'
+NeoBundle 'chemzqm/vim-jsx-improve'
+
+NeoBundle 'prettier/vim-prettier', { 'do': 'yarn install' }
 
 NeoBundleCheck

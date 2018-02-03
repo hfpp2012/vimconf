@@ -127,6 +127,7 @@ map <leader>gi :GitGutterToggle<cr>
 let g:gitgutter_enabled = 0
 
 " MiniBufExplorer
+" let g:miniBufExplMaxSize = 2
 map <leader>mca :MBECloseAll<cr>
 map <leader>mt :MBEToggle<cr>
 map <leader>f :MBEFocus<cr>
