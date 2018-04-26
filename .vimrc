@@ -128,6 +128,7 @@ set background=light
 if has("gui_running")
   " colorscheme Tomorrow-Night
   colorscheme molokai
+  " colorscheme space-vim-dark
   set linespace=2
   " set lines=35
   set lines=999
