@@ -7,11 +7,11 @@ NeoBundle 'MarcWeber/vim-addon-mw-utils'
 NeoBundle 'tomtom/tlib_vim'
 " NeoBundle "Valloric/YouCompleteMe"
 " vim-react-snippets:
-" NeoBundle "bentayloruk/vim-react-es6-snippets"
-NeoBundle 'VimSnippets/vim-react-snippets'
-NeoBundle 'yinsigan/vim-snipmate'
+" NeoBundle 'bentayloruk/vim-react-es6-snippets'
+" NeoBundle 'VimSnippets/vim-react-snippets'
+NeoBundle 'hfpp2012/vim-snipmate'
 " NeoBundle 'honza/vim-snippets'
-NeoBundle 'yinsigan/snipmate-snippets'
+NeoBundle 'hfpp2012/snipmate-snippets'
 NeoBundle "tpope/vim-rails"
 NeoBundle "tpope/vim-bundler"
 NeoBundle 'kien/ctrlp.vim.git'
@@ -39,7 +39,7 @@ NeoBundle 'ywjno/vim-tomorrow-theme'
 NeoBundle 'chriskempson/base16-vim'
 NeoBundle 'matthewtodd/vim-twilight'
 NeoBundle 'terryma/vim-multiple-cursors'
-NeoBundle 'yinsigan/Smyck-Color-Scheme'
+NeoBundle 'hfpp2012/Smyck-Color-Scheme'
 NeoBundle 'liuchengxu/space-vim-dark'
 NeoBundle 'fholgado/minibufexpl.vim'
 NeoBundle 'airblade/vim-gitgutter'
