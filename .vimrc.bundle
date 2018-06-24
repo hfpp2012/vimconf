@@ -7,11 +7,14 @@ NeoBundle 'MarcWeber/vim-addon-mw-utils'
 NeoBundle 'tomtom/tlib_vim'
 " NeoBundle "Valloric/YouCompleteMe"
 " vim-react-snippets:
-" NeoBundle 'bentayloruk/vim-react-es6-snippets'
 " NeoBundle 'VimSnippets/vim-react-snippets'
 NeoBundle 'hfpp2012/vim-snipmate'
 " NeoBundle 'honza/vim-snippets'
 NeoBundle 'hfpp2012/snipmate-snippets'
+NeoBundle 'bentayloruk/vim-react-es6-snippets'
+NeoBundle 'epilande/vim-es2015-snippets'
+NeoBundle 'epilande/vim-react-snippets'
+NeoBundle 'SirVer/ultisnips'
 NeoBundle "tpope/vim-rails"
 NeoBundle "tpope/vim-bundler"
 NeoBundle 'kien/ctrlp.vim.git'

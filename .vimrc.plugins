@@ -135,3 +135,5 @@ map <leader>f :MBEFocus<cr>
 " wmgraphviz.vim
 map <leader>ll :GraphvizCompile<cr>
 let g:WMGraphviz_output="png"
+
+let g:UltiSnipsExpandTrigger="<C-l>"
