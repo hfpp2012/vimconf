@@ -120,6 +120,7 @@ NeoBundle 'chemzqm/wxapp.vim'
 NeoBundle 'mxw/vim-jsx'
 NeoBundle 'MaxMEllon/vim-jsx-pretty'
 NeoBundle 'chemzqm/vim-jsx-improve'
+NeoBundle 'styled-components/vim-styled-components'
 
 NeoBundle 'prettier/vim-prettier', { 'do': 'yarn install' }
 
