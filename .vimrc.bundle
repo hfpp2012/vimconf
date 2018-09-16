@@ -1,4 +1,9 @@
 NeoBundleFetch 'Shougo/neobundle.vim'
+NeoBundle 'mhinz/vim-startify'
+" NeoBundle 'liuchengxu/eleline.vim'
+NeoBundle "tpope/vim-rsi"
+" NeoBundle 'dominikduda/vim_current_word'
+" NeoBundle 'liuchengxu/vim-better-default'
 NeoBundle 'mattn/emmet-vim'
 NeoBundle 'scrooloose/nerdtree.git'
 NeoBundle 'Xuyuanp/nerdtree-git-plugin'
