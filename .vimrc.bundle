@@ -1,5 +1,13 @@
 NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'mhinz/vim-startify'
+" 需要 npm install
+" NeoBundle 'yardnsm/vim-import-cost'
+" 图标
+" https://github.com/Karmenzind/monaco-nerd-fonts/tree/master/fonts
+" NeoBundle 'ryanoasis/vim-devicons'
+" NeoBundle 'tiagofumo/vim-nerdtree-syntax-highlight'
+NeoBundle 'tpope/vim-repeat'
+" NeoBundle 'itchyny/lightline.vim'
 " NeoBundle 'liuchengxu/eleline.vim'
 NeoBundle "tpope/vim-rsi"
 " NeoBundle 'dominikduda/vim_current_word'
@@ -126,6 +134,8 @@ NeoBundle 'mxw/vim-jsx'
 NeoBundle 'MaxMEllon/vim-jsx-pretty'
 NeoBundle 'chemzqm/vim-jsx-improve'
 NeoBundle 'styled-components/vim-styled-components'
+NeoBundle 'heavenshell/vim-jsdoc'
+NeoBundle 'editorconfig/editorconfig-vim'
 
 NeoBundle 'prettier/vim-prettier', { 'do': 'yarn install' }
 

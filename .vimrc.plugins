@@ -137,3 +137,9 @@ map <leader>ll :GraphvizCompile<cr>
 let g:WMGraphviz_output="png"
 
 let g:UltiSnipsExpandTrigger="<C-l>"
+
+let g:WebDevIconsNerdTreeAfterGlyphPadding = ''
+let g:WebDevIconsNerdTreeGitPluginForceVAlign = 0
+
+let g:jsdoc_enable_es6 = 1
+let g:jsdoc_param_description_separator = "-"

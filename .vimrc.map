@@ -66,3 +66,6 @@
   nmap T O<ESC>j
 
   cmap w!! w !sudo tee >/dev/null %
+
+  " jsdoc
+  nmap <silent> <C-g> :call jsdoc#insert()<cr>
